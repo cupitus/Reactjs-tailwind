@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './style'
 import {Navbar,Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials, Hero,} from './Components'
 
@@ -18,7 +17,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${style.flexStart}`}>
+      <div className={`bg-primary  ${style.paddingX} ${style.flexCenter}`}>
         <div className={`${style.boxWidth}`}>
           <Stats/>
           <Business/>
